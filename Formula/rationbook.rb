@@ -1,8 +1,8 @@
 class Rationbook < Formula
   desc "Local Codex and Claude capacity monitor CLI"
   homepage "https://github.com/attomus/rationbook"
-  url "https://github.com/attomus/rationbook/releases/download/v0.1.0/Rationbook-0.1.0.zip"
-  sha256 "5623cbe852a37a30f913e613a99666c23cceb92721c38c8b35b599f20bb00b5d"
+  url "https://github.com/attomus/rationbook/releases/download/v0.1.1/Rationbook-0.1.1.zip"
+  sha256 "95497cf9ea26c21626bf56102207d44f0faa7962a4264a3bd7c0c321148f27c3"
   license "Apache-2.0"
 
   depends_on arch: :arm64
