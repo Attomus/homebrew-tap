@@ -1,6 +1,6 @@
 cask "rationbook" do
-  version "0.1.1"
-  sha256 "95497cf9ea26c21626bf56102207d44f0faa7962a4264a3bd7c0c321148f27c3"
+  version "0.1.2"
+  sha256 "5013e4dd250f4f6dd47524eab341fff1e9fc6c7dcceeefe52fb4cf9d33ec4849"
 
   url "https://github.com/attomus/rationbook/releases/download/v#{version}/Rationbook-#{version}.zip"
   name "Rationbook"
