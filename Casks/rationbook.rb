@@ -1,8 +1,8 @@
 cask "rationbook" do
-  version "0.1.2"
-  sha256 "5013e4dd250f4f6dd47524eab341fff1e9fc6c7dcceeefe52fb4cf9d33ec4849"
+  version "0.1.2,4"
+  sha256 "c12e750bc0813920322d19ec537900f9c87732fc47337bb41e0ec8a81f1a073f"
 
-  url "https://github.com/attomus/rationbook/releases/download/v#{version}/Rationbook-#{version}.zip"
+  url "https://github.com/attomus/rationbook/releases/download/v#{version.before_comma}/Rationbook-#{version.before_comma}.zip"
   name "Rationbook"
   desc "Local Codex and Claude capacity monitor"
   homepage "https://github.com/attomus/rationbook"
